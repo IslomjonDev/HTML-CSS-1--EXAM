@@ -1,0 +1,113 @@
+
+/*PARTNERS*/
+
+
+
+.partners {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30vh;
+}
+
+/* partner footer */
+.partners-img {
+    width:1050px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.partner-footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1050px;
+    height: 150px;
+    /* padding: 30px 50px; */
+    border-radius: 2px;
+    background: var(--secondary-color-2, #16697A);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    padding: 30px 50px;
+}
+.partner-footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partner-footer h3 {
+    color: var(--light-text-color, #FFF);
+    /* flex: 1; */
+    width: 258px;
+    height: 64px;
+/* h3 */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.1px;
+}
+.partner-input{
+    width: 450px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #F9F9F9;
+}
+.partner-input input{
+    display: flex;
+    width: 333px;
+    height: 58px; 
+    padding-left: 20px;  
+    border: 1px solid #E6E6E6;
+    border-radius: 5px 0 0 5px;
+    /* border: none; */
+    
+}
+.partner-input button {
+    border-left: none;
+    display: flex;
+width: 117px;
+height: 58px;
+padding: 15px 22.5px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 0px 5px 5px 0px;
+border: 1px solid #E6E6E6;
+background: var(--primary-color, #FFA62B);
+color: var(--light-text-color, #FFF);
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 200% */
+letter-spacing: 0.2px;
+}
+@media screen and (max-width:420px) {
+    .partners {
+  
+        display: flex;
+        flex-direction: column;
+    } 
+    .partners img {
+        width: 100px;
+        padding: 20px;
+        margin-left: 80px;
+    }
+    .partner-footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .partner-footer {
+        width: 400px;
+    }
+    .partner-input form  {
+        width: 280px;
+    }
+}
+

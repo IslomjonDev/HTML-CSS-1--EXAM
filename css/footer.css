@@ -1,0 +1,139 @@
+
+/*FOOTER*/
+
+
+
+
+.footer {
+    background-color: #16697A;
+    margin-top: 40px;
+}
+.company {
+    width: 1050px;
+    margin: 55px auto;
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.company-info h5 {
+    color: var(--light-text-color, #FFF);
+    padding: 4px;
+    /* h5 */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+}
+.company-info ul li a {
+    color: var(--light-text-color, #FFF);
+
+/* link */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+padding: 5px;
+}
+.company-info {
+    padding-top: 50px;
+  
+
+}
+.legal {
+    padding-top: 50px;
+}
+.legal h5 {
+    color: var(--light-text-color, #FFF);
+    padding: 4px;
+    /* h5 */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+}
+.legal ul li a {
+    color: var(--light-text-color, #FFF);
+
+/* link */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+padding: 5px;
+}
+.resources {
+    padding-top: 50px;
+}
+.resources h5 {
+    color: var(--light-text-color, #FFF);
+    padding: 4px;
+    /* h5 */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+}
+.resources ul li a {
+    color: var(--light-text-color, #FFF);
+
+/* link */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+padding: 5px;
+}
+.logos  {
+    display: flex;
+    flex-direction: column;
+   
+}
+.get-touch h5 {
+    color: var(--light-text-color, #FFF);
+    padding: 4px;
+    /* h5 */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px; }
+    .logos svg {
+        margin: 13px;
+        display: flex;
+    }
+    .contacts p {
+        color: var(--light-text-color, #FFF);
+
+        /* link */
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 171.429% */
+        letter-spacing: 0.2px;
+        margin: -70px;
+        margin-left:55px;
+        margin-top:-50px ;
+    }
+    @media screen and (max-width:420px) {
+        .company {
+            display: flex;
+            flex-direction: column;
+            height: 1500px; 
+        }
+    
+    }

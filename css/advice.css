@@ -1,0 +1,67 @@
+.advice {
+  padding-top: 120px;
+}
+.advice-text h2 {
+  text-align: center;
+}
+.advice-text p {
+  padding-top: 30px;
+  margin-left: 500px;
+  width: 450px;
+  color: var(--second-text-color, #737373);
+  
+/* paragraph */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}
+.advice-card {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.advice-card h5 {
+  color: var(--text-color, #252B42);
+width: 170px;
+/* h5 */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+}
+.advice-card p {
+  color: var(--second-text-color, #737373);
+width: 180px;
+/* paragraph */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}
+.advice-card1 {
+  display: flex;
+width: 230px;
+flex-direction: column;
+align-items: center;
+background: #FFF;
+}
+@media  screen and (max-width:420px) {
+  .advice-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+  }
+  .advice-card1 {
+    padding: 10px;
+  }
+  .advice-text p {
+    margin-left:0px;
+  }
+}

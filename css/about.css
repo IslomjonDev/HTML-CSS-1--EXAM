@@ -1,0 +1,129 @@
+
+/*ABOUT*/
+
+
+.about {
+    padding-top: 85px;
+}
+.about h2 {
+    text-align: center;
+    color: var(--text-color, #252B42);
+
+/* h2 */
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; /* 142.5% */
+letter-spacing: 0.2px;
+}
+.about p {
+    padding-top:15px;
+    margin-left: 50vh;
+    width: 510px;
+    color: var(--second-text-color, #737373);   
+    text-align: center;
+/* paragraph */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+margin-bottom: 20px;
+}
+.about-cards {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+}
+.about-card1 {
+    height: 210px;
+    display: flex;
+width: 230px;
+padding: 30px 40px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.about-card2 {
+    height: 210px;
+    display: flex;
+    width: 230px;
+    padding: 30px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.about-card3 {
+    height: 210px;
+    display: flex;
+    width: 230px;
+    padding: 30px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.about-card4 {
+    display: flex;
+    width: 230px;
+    padding: 30px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.about-cards h2 {
+    padding-top: 10px;
+    color: var(--text-color, #252B42);
+
+/* h2 */
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; /* 142.5% */
+letter-spacing: 0.2px;
+}
+.about-card2 h2 {
+    padding-top: 28px;
+}
+.about-cards h5 {
+    width: 166px;
+    color: var(--second-text-color, #737373);
+text-align: center;
+
+/* h5 */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+}
+.about-cards :hover {
+    background-color: rgb(85, 245, 192);
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px 2px;
+}
+@media only screen and (max-width:420px){
+    .about-cards {
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+    }
+    .about p {
+        width: 350px;
+        margin-left: 0;
+    }
+}
